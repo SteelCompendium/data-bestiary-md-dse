@@ -39,15 +39,19 @@ abilities:
   t1: 4 damage
   t2: 7 damage; grabbed
   t3: 10 damage; grabbed
-  effect: 'The target takes a bane on attempts to escape the grab, and the brawler
-    gains an edge on attacks against the grabbed target. '
+  effects:
+  - name: Effect
+    effect: 'The target takes a bane on attempts to escape the grab, and the brawler
+      gains an edge on attacks against the grabbed target. '
 - name: Throw
   type: Maneuver
   keywords:
   - Melee
   distance: Reach 1
   target: One creature grabbed by the brawler
-  effect: 'The brawler pushes the creature they have grabbed 5 squares. This breaks
-    the grab. '
+  effects:
+  - name: Effect
+    effect: 'The brawler pushes the creature they have grabbed 5 squares. This breaks
+      the grab. '
 
 ~~~

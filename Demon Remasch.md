@@ -39,6 +39,10 @@ abilities:
   t1: 4 damage; the remasch teleports 2 squares
   t2: 7 damage; the remasch teleports 3 squares
   t3: 10 damage; the remasch teleports 5 squares
+  effects:
+  - name: '**5 VP'
+    effect: '** The remasch takes an adjacent creature with them when they teleport.
+      The creature appears in an unoccupied space adjacent to the remasch’s destination. '
 - name: Grasping Shadow
   type: Maneuver
   keywords:
@@ -46,7 +50,9 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Self
-  effect: 'The remasch can teleport 2 squares then use Abyssal Strike. '
+  effects:
+  - name: Effect
+    effect: 'The remasch can teleport 2 squares then use Abyssal Strike. '
 weakness: Holy 3
 
 ~~~

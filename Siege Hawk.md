@@ -36,8 +36,10 @@ abilities:
   t1: 4 damage
   t2: 7 damage
   t3: 10 damage
-  effect: 'The target is grabbed by the siege hawk. The siege hawk can have two targets
-    grabbed at a time. '
+  effects:
+  - name: Effect
+    effect: 'The target is grabbed by the siege hawk. The siege hawk can have two
+      targets grabbed at a time. '
 - name: Bombs Away!
   type: Action
   roll: AGL RR
@@ -52,7 +54,9 @@ abilities:
   t3: 7 fire damage; restrained (EoT)
   t2: 6 fire damage; slowed (EoT)
   t1: 3 fire damage
-  special: 'The siege hawk must be flying to use this ability. '
+  effects:
+  - name: Special
+    effect: 'The siege hawk must be flying to use this ability. '
 - name: Dive
   type: Maneuver
 
