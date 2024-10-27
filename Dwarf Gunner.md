@@ -37,13 +37,11 @@ abilities:
   t1: 4 damage; push 1
   t2: 7 damage; push 3
   effects:
-  - name: '**Effect**'
-    effect: If the target is adjacent to a wall or object after the power roll is
+  - name: Effect
+    effect: 'If the target is adjacent to a wall or object after the power roll is
       resolved, they are restrained (EoT). A target restrained by a dwarf can be pushed
-      by this attack.
-  - name: '**5 Malice**'
-    effect: 'If the target is pushed into another creature, both the target and the
-      creature are restrained (EoT). '
+      by this attack. 5 Malice: If the target is pushed into another creature, both
+      the target and the creature are restrained (EoT). '
 - name: Ensnaring Chains
   type: Maneuver
   cost: 5 Malice
@@ -53,7 +51,7 @@ abilities:
   distance: Ranged 10
   target: 1 restrained, slowed, or prone target
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'The gunner makes a free strike against the target. The target loses any
       restrained, slowed, or prone conditions and gains restrained (save ends). '
 

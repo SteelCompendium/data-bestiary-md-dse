@@ -1,8 +1,11 @@
 ```ds-statblock
 name: Demon Remasch
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Demon
+- Planar EV 13
+roles:
+- AMBUSHER
+level: 2
 ev: ''
 stamina: ''
 immunities: []
@@ -17,11 +20,6 @@ agility: 2
 reason: 0
 presence: 2
 traits:
-- name: LEVEL 2 AMBUSHER
-  effect: ''
-- name: Demon, Planar EV 13
-  effect: '**Stamina:** 25 **Weakness:** Holy 3 **Speed:** 5 (teleport) **Size:**
-    1S / Stability 0 **Free Strike:** 4'
 - name: Lethe
   effect: While winded, the remasch has an edge on attacks, and attacks have an edge
     against them.

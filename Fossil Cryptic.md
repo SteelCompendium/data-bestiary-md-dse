@@ -42,7 +42,7 @@ abilities:
   target: One creature or object
   t1: 5 damage; A2 prone
   t2: 9 damage; A3 prone and can’t stand (EoT)
-  t3: '12 damage; A4 prone and can’t stand (save ends) '
+  t3: 12 damage; A4 prone and can’t stand (save ends)
   effects:
   - name: Effect
     effect: 'Each enemy within 1 square of the target takes 2 damage. '
@@ -56,7 +56,7 @@ abilities:
   target: Each enemy in the line
   t1: 2 damage; M2 push 2
   t2: 3 damage; M3 prone
-  t3: '4 damage; M4 prone '
+  t3: 4 damage; M4 prone
   effects:
   - name: Effect
     effect: 'The cryptic reforms their body and appears in an unoccupied space within
@@ -86,7 +86,7 @@ abilities:
   target: One creature or object on the ground
   t1: Slide 3
   t2: Slide 2
-  t3: 'Slide 1  2 Malice: The distance of the slide is doubled. '
+  t3: 'Slide 1 2 Malice: The distance of the slide is doubled. '
 - name: Dissipate
   type: Triggered Action
   cost: 1 Malice
@@ -109,7 +109,7 @@ abilities:
   target: Each enemy on the ground in the burst
   t1: The target is prone and can’t stand (EoT)
   t2: Prone
-  t3: 'No effect '
+  t3: No effect
   effects:
   - name: Effect
     effect: 'The area becomes difficult terrain. '
@@ -123,7 +123,7 @@ abilities:
   target: Each enemy on the ground in the burst
   t1: 4 damage; prone
   t2: 2 damage
-  t3: 'The target moves to the nearest unoccupied space outside the area. '
+  t3: The target moves to the nearest unoccupied space outside the area.
   effects:
   - name: Effect
     effect: 'The area drops 2 squares. Each enemy in the area falls, while all allies

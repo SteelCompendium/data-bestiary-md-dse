@@ -37,7 +37,7 @@ abilities:
   t1: 3 damage; push 1; M1 slowed (save ends)
   t2: 5 damage; push 3; M2 slowed (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A target restrained by a dwarf can be pushed by this ability. '
 - name: Sleep Grenade
   type: Action
@@ -51,7 +51,7 @@ abilities:
   t1: 3 poison damage; I1 dazed (save ends)
   t2: 5 poison damage; I2 dazed (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A creature dazed by this ability has -1 to all characteristics while
       resisting potent effects until the condition ends. '
 

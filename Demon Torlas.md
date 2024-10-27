@@ -1,8 +1,11 @@
 ```ds-statblock
 name: Demon Torlas
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Demon
+- Planar EV 9
+roles:
+- CONTROLLER
+level: 1
 ev: ''
 stamina: ''
 immunities: []
@@ -17,11 +20,6 @@ agility: 1
 reason: 0
 presence: 2
 traits:
-- name: LEVEL 1 CONTROLLER
-  effect: ''
-- name: Demon, Planar EV 9
-  effect: '**Stamina:** 15 **Weakness:** Holy 3 **Speed:** 5 **Size:** 1S / Stability
-    0 **Free Strike:** 2'
 - name: Lethe
   effect: While winded, the torlas has an edge on attacks, and attacks have an edge
     against them.

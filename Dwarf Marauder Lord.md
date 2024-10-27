@@ -37,11 +37,10 @@ abilities:
   t1: 5 damage; slide 1
   t2: 9 damage; slide 3
   effects:
-  - name: '**Effect**'
-    effect: A target restrained by a dwarf can be slid by this attack.
-  - name: '**3 Malice**'
-    effect: 'A target that is force moved adjacent to an ally with this ability is
-      restrained (EoT). '
+  - name: Effect
+    effect: 'A target restrained by a dwarf can be slid by this attack. 3 Malice:
+      A target that is force moved adjacent to an ally with this ability is restrained
+      (EoT). '
 - name: Magnetomancy
   type: Maneuver
   keywords:
@@ -50,11 +49,10 @@ abilities:
   distance: Ranged 10
   target: 1 creature or object
   effects:
-  - name: '**Effect**'
-    effect: Vertical slide 5. A target restrained by a dwarf can be slid by this ability.
-  - name: '**5 Malice**'
-    effect: 'This ability gains the Area keyword, its distance becomes 10 burst, and
-      it now targets restrained creatures. '
+  - name: Effect
+    effect: 'Vertical slide 5. A target restrained by a dwarf can be slid by this
+      ability. 5 Malice: This ability gains the Area keyword, its distance becomes
+      10 burst, and it now targets restrained creatures. '
 - name: Your Weapon is Useless
   type: Triggered Action
   keywords:
@@ -63,7 +61,7 @@ abilities:
   target: Self or 1 ally
   trigger: A creature makes a weapon attack against the target.
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'The target takes half damage from the attack. The attacker takes 5 damage. '
 - name: Ajax Will Pay Well for These Specimens
   type: Villain Action 1
@@ -73,7 +71,7 @@ abilities:
   distance: 5 cube within 10
   target: All enemies in the cube
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'The marauder lord uses Levitating Axes against each target. The marauder
       lord makes one power roll against all targets. '
 - name: Don’t Let Them Escape!
@@ -83,7 +81,7 @@ abilities:
   distance: 5 burst
   target: All allies in the burst
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'Each target shifts up to their speed. The marauder lord then uses Levitating
       Axes. '
 - name: Test Your Metal!
@@ -93,7 +91,7 @@ abilities:
   distance: Ranged 10
   target: special
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: The marauder lord creates three 2-square metal objects in unoccupied squares
       within distance. When the marauder lord uses Magnetomancy, they can additionally
       target one of these objects.

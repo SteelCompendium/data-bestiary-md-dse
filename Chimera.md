@@ -1,8 +1,10 @@
 ```ds-statblock
 name: Chimera
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Monster EV 88
+roles:
+- SOLO
+level: 3
 ev: ''
 stamina: ''
 immunities: []
@@ -17,11 +19,6 @@ agility: 2
 reason: -2
 presence: 0
 traits:
-- name: LEVEL 3 SOLO
-  effect: ''
-- name: Monster EV 88
-  effect: '**Stamina:** 240 **Immunity:** Fire 6 **Speed:** 10 (fly) **Size:** 2 /
-    Stability 1 **Free Strike:** 6'
 - name: Solo Monster
   effect: ''
 - name: Volant

@@ -1,8 +1,10 @@
 ```ds-statblock
 name: Bredbeddle
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Giant
+roles:
+- SOLO
+level: 3
 ev: 88
 stamina: 240
 immunities: []
@@ -17,8 +19,6 @@ agility: 0
 reason: -3
 presence: 2
 traits:
-- name: LEVEL 3 SOLO
-  effect: '*Giant*'
 - name: Solo Monster
   effect: ''
 - name: Resilient Form
@@ -61,12 +61,26 @@ abilities:
   t1: 6 damage; bleeding (save ends) or M2 beheaded (see effect)
   t2: 10 damage; bleeding (save ends) or M3 beheaded (see effect)
   t3: 13 damage; bleeding (save ends) or M4 beheaded (see effect)
+  effects:
+  - name: Effect
+    effect: 'A beheaded target has their head fall into an unoccupied square adjacent
+      to the bredbeddle, but they remain alive. While beheaded, the target is dazed
+      and can’t have line of effect to any creature other than themselves. The beheaded
+      target can survive without their head for 24 hours, and can reattach their head
+      by entering its square and using a maneuver to do so. A target who remains beheaded
+      for 24 hours dies. '
 - name: Scramble
   type: Maneuver
   keywords:
   - —
   distance: Self
   target: Self
+  effects:
+  - name: Effect
+    effect: 'The bredbeddle must be headless to use this ability. The bredbeddle shifts
+      up to their speed, and can push each creature who comes within their reach during
+      the shift 1 square. Each square the bredbeddle leaves during the shift becomes
+      difficult terrain. '
 - name: Headway
   type: Maneuver
   roll: 2d10 + 3
@@ -80,6 +94,11 @@ abilities:
   t1: 3 damage; M2 dazed (save ends)
   t2: 5 damage; prone; M3 dazed (save ends)
   t3: '7 damage; prone; M4 dazed (save ends) '
+  effects:
+  - name: Effect
+    effect: The bredbeddle must have a head in their possession (attached to them
+      or not), which they throw at the target. If the head was attached, the bredbeddle
+      becomes headless.
 - name: Rebuke of the Fiendish Burlow
   type: Triggered Action
   cost: 2 Malice
@@ -88,6 +107,10 @@ abilities:
   distance: Self
   target: Self
   trigger: A creature targets the bredbeddle with a ranged magic attack.
+  effects:
+  - name: Effect
+    effect: 'The bredbeddle uses the same ability against the triggering creature,
+      using that creature’s bonus to any power rolls they make. '
 - name: Turn Green
   type: Villain Action 1
   cost: PRS RR
@@ -100,12 +123,23 @@ abilities:
   t1: The target turns green and is slowed (save ends)
   t2: The target turns green (save ends)
   t3: 'No effect '
+  effects:
+  - name: Effect
+    effect: Green shadows crawl out from under the bredbeddle’s feet and attempt to
+      turn each target green. The bredbeddle has a double edge on attacks made against
+      targets turned green in this way.
 - name: Challenge
   type: Villain Action 2
   keywords:
   - —
   distance: Ranged 5
   target: One creature who damaged the bredbeddle this encounter
+  effects:
+  - name: Effect
+    effect: The bredbeddle points at the target and issues them a challenge. If the
+      target refuses, they turn green (save ends). If the target accepts, the bredbeddle
+      shifts to a space adjacent to the target, who must make a hard Might test with
+      no additional modifiers.
 - name: Headlam Rampage
   type: Villain Action 3
   cost: 2d10 + 3

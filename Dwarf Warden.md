@@ -37,7 +37,7 @@ abilities:
   t1: 5 damage; push 1; M1 slowed (save ends)
   t2: 8 damage; push 3; M2 slowed (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A target restrained by a dwarf can be pushed by this attack. '
 - name: Concussive Shockwave
   type: Maneuver
@@ -50,7 +50,7 @@ abilities:
   t1: 2 damage; push 2; A1 slowed (save ends)
   t2: 4 damage; push 4; A2 slowed (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A target restrained by a dwarf can be pushed by this ability. '
 
 ```

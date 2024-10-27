@@ -41,7 +41,7 @@ abilities:
   target: One creature or object
   t1: 2 damage; M1 grabbed
   t2: 5 damage; M2 grabbed
-  t3: '6 damage; grabbed '
+  t3: 6 damage; grabbed
   effects:
   - name: Effect
     effect: 'A target who starts their turn grabbed by the zombie takes 2 corruption

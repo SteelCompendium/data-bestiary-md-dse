@@ -42,7 +42,7 @@ abilities:
   t1: 4 damage; M1 slowed (save ends)
   t2: 7 damage; M2 slowed (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'Restrained targets and targets restrained by this ability are pulled
       3. A target restrained by a dwarf can be pulled by this attack. '
 - name: Stunning Blast

@@ -39,7 +39,7 @@ abilities:
   target: One creature or object
   t1: 2 corruption damage
   t2: 4 corruption damage; M1 slowed (save ends)
-  t3: '5 corruption damage; M2 slowed and weakened (save ends) '
+  t3: 5 corruption damage; M2 slowed and weakened (save ends)
   effects:
   - name: Effect
     effect: 'The target appears to rapidly age each time they take damage from this
