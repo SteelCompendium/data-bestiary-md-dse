@@ -54,8 +54,9 @@ abilities:
   target: Self or one incorporeal ally
   effects:
   - name: Effect
-    effect: 'The target shifts up to their speed. 2 Malice: The ghost chooses one
-      additional target. '
+    effect: The target shifts up to their speed.
+  - name: 2 Malice
+    effect: 'The ghost chooses one additional target. '
 - name: Shriek
   type: Triggered Action
   cost: 1 Malice

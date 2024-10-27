@@ -37,6 +37,10 @@ abilities:
   target: 3 creatures or objects
   t1: 3 damage; pull 1; A2 bleeding (save ends)
   t2: 7 damage; pull 1; A3 bleeding (save ends)
+  effects:
+  - name: 1 Malice
+    effect: 'One target that is adjacent to the deathrex is grabbed by the deathrex’s
+      mouth. '
 - name: Death Roll
   type: Action
   roll: 2d10 + 3

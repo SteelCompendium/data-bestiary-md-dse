@@ -43,10 +43,11 @@ abilities:
   t2: 5 acid damage; 2 dazed (save ends)
   effects:
   - name: Effect
-    effect: 'A size 2 or smaller creature restrained by this attack is pulled into
+    effect: A size 2 or smaller creature restrained by this attack is pulled into
       one of the cube’s squares and moves with the cube. The creature takes 3 acid
       damage at the start of each of their turns while restrained. When restrained
       ends, the creature moves to the nearest unoccupied square adjacent to the cube.
-      3 Malice: The cube attacks 1 additional target. '
+  - name: 3 Malice
+    effect: 'The cube attacks 1 additional target. '
 
 ```

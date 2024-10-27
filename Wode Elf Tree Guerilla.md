@@ -40,9 +40,10 @@ abilities:
   t2: 9 damage; M2 bleeding (save ends)
   effects:
   - name: Effect
-    effect: 'The tree guerilla can teleport 3 after making the attack. 5 Malice: The
-      tree guerilla targets an additional creature or object. The tree guerilla has
-      **+1** if both targets are adjacent to each other. '
+    effect: The tree guerilla can teleport 3 after making the attack.
+  - name: 5 Malice
+    effect: 'The tree guerilla targets an additional creature or object. The tree
+      guerilla has **+1** if both targets are adjacent to each other. '
 - name: Do Not Hesitate in the Wode
   type: Free Triggered Action
   cost: 3 Malice

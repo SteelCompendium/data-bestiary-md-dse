@@ -48,7 +48,9 @@ abilities:
   target: 1 trap or terrain object
   effects:
   - name: Effect
-    effect: 'The trap or terrain object instantly triggers. 3 Malice: The artifex
-      can place a new trap in the encounter and instantly trigger it. '
+    effect: The trap or terrain object instantly triggers.
+  - name: 3 Malice
+    effect: 'The artifex can place a new trap in the encounter and instantly trigger
+      it. '
 
 ```

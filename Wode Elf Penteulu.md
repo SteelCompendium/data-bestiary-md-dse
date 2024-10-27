@@ -42,9 +42,10 @@ abilities:
   t2: 9 damage; M3 restrained (save ends)
   effects:
   - name: Effect
-    effect: 'The penteulu deals damage to each target one at a time and can teleport
-      3 squares after damaging a target. 3 Malice: Targets restrained by this ability
-      take an additional **+1**. '
+    effect: The penteulu deals damage to each target one at a time and can teleport
+      3 squares after damaging a target.
+  - name: 3 Malice
+    effect: 'Targets restrained by this ability take an additional **+1**. '
 - name: Fairness is a Human Concept
   type: Maneuver
   cost: 5 Malice

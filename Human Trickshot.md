@@ -41,7 +41,8 @@ abilities:
   t3: 10 damage
   effects:
   - name: Effect
-    effect: 'The trickshot ignores cover and concealment. 3 Malice: The trickshot
-      attacks an additional target. '
+    effect: The trickshot ignores cover and concealment.
+  - name: 3 Malice
+    effect: 'The trickshot attacks an additional target. '
 
 ```

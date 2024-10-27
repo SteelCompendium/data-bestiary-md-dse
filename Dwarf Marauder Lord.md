@@ -38,9 +38,10 @@ abilities:
   t2: 9 damage; slide 3
   effects:
   - name: Effect
-    effect: 'A target restrained by a dwarf can be slid by this attack. 3 Malice:
-      A target that is force moved adjacent to an ally with this ability is restrained
-      (EoT). '
+    effect: A target restrained by a dwarf can be slid by this attack.
+  - name: 3 Malice
+    effect: 'A target that is force moved adjacent to an ally with this ability is
+      restrained (EoT). '
 - name: Magnetomancy
   type: Maneuver
   keywords:
@@ -50,9 +51,10 @@ abilities:
   target: 1 creature or object
   effects:
   - name: Effect
-    effect: 'Vertical slide 5. A target restrained by a dwarf can be slid by this
-      ability. 5 Malice: This ability gains the Area keyword, its distance becomes
-      10 burst, and it now targets restrained creatures. '
+    effect: Vertical slide 5. A target restrained by a dwarf can be slid by this ability.
+  - name: 5 Malice
+    effect: 'This ability gains the Area keyword, its distance becomes 10 burst, and
+      it now targets restrained creatures. '
 - name: Your Weapon is Useless
   type: Triggered Action
   keywords:

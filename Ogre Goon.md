@@ -53,8 +53,10 @@ abilities:
   t2: 9 damage; grabbed
   effects:
   - name: Effect
-    effect: 'The goon can only have one target grabbed at a time. 1 Malice: The target
-      has a bane on escaping the grab while the goon crushes the target in their hand. '
+    effect: The goon can only have one target grabbed at a time.
+  - name: 1 Malice
+    effect: 'The target has a bane on escaping the grab while the goon crushes the
+      target in their hand. '
 - name: People Bowling
   type: Maneuver
   roll: 2d10 + 3

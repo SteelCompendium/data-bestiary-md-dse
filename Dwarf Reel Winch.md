@@ -37,6 +37,10 @@ abilities:
   target: 1 creature or object
   t1: 3 damage; M1 slowed (save ends)
   t2: 5 damage; M2 slowed (save ends)
+  effects:
+  - name: 2 Malice
+    effect: 'Pull 5. A target restrained by a dwarf, including by this ability, can
+      be pulled this way. '
 - name: Reel Them In
   type: Maneuver
   cost: 3 Malice

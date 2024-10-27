@@ -38,6 +38,7 @@ abilities:
   distance: Melee 1
   target: 2 creatures or objects
   t1: 5 damage; shift 1
+  t2: 8 damage; shift 2
   t3: 11 damage; shift 3
   effects:
   - name: Effect
@@ -51,6 +52,7 @@ abilities:
   distance: 3 cube within 8 (while flying and grappling a creature or object)
   target: All enemies
   t1: 2 damage; A1 push 2
+  t2: 3 damage; A2 push 3
   t3: '4 damage; A3 push 4 and prone '
   effects:
   - name: Effect
@@ -66,6 +68,7 @@ abilities:
   distance: 4 × 2 line within 1
   target: All creatures and objects
   t1: Vertical push 4
+  t2: Push 3
   t3: 'Push 2 '
 - name: Juke
   type: Triggered Action

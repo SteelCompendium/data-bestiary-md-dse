@@ -42,9 +42,9 @@ abilities:
   t2: 5 damage; 3 weakened (save ends)
   effects:
   - name: Effect
-    effect: 'Any allies adjacent to a target of this attack can make a free strike.
-      3 Malice: Targets weakened by this attack are now restrained while they are
-      weakened. '
+    effect: Any allies adjacent to a target of this attack can make a free strike.
+  - name: 3 Malice
+    effect: 'Targets weakened by this attack are now restrained while they are weakened. '
 - name: Concentrate All Fire on That Hero!
   type: Maneuver
   keywords:
@@ -53,10 +53,11 @@ abilities:
   target: One enemy
   effects:
   - name: Effect
-    effect: 'The target is marked until the start of the centurion’s next turn. The
+    effect: The target is marked until the start of the centurion’s next turn. The
       centurion and each of their allies gain an edge and advantage on attacks against
-      targets marked by the centurion. 3+ Malice: The centurion targets 1 additional
-      enemy for every 3 malice spent. '
+      targets marked by the centurion.
+  - name: 3+ Malice
+    effect: 'The centurion targets 1 additional enemy for every 3 malice spent. '
 - name: Testudo!
   type: Triggered Action
   keywords:

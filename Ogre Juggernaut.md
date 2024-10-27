@@ -41,6 +41,9 @@ abilities:
   target: 2 creatures or objects
   t1: 5 damage; A1 vertical slide 2
   t2: 8 damage; A2 vertical push 3
+  effects:
+  - name: 1 Malice
+    effect: 'Each target is M2 bleeding (save ends). '
 - name: Earth Breaking Jump
   type: Action
   cost: 2d10 + 2
