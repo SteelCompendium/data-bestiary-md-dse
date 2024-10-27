@@ -42,12 +42,12 @@ abilities:
   effects:
   - name: 2 Malice
     effect: 'The potency of this ability increases by 1. A living creature killed
-      by this ability becomes a specter who appears in the target’s space under the
+      by this ability becomes a specter who appears in the target''s space under the
       Director''s control. '
 - name: Hidden Movement
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

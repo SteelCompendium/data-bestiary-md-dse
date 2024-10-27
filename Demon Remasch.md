@@ -24,7 +24,7 @@ traits:
   effect: While winded, the remasch has an edge on attacks, and attacks have an edge
     against them.
 - name: Soulsight
-  effect: Each creature within 2 of the remasch can’t be hidden from them.
+  effect: Each creature within 2 of the remasch can't be hidden from them.
 abilities:
 - name: Abyssal Strike
   type: Action
@@ -42,7 +42,7 @@ abilities:
   effects:
   - name: 5 Malice
     effect: 'The remasch takes an adjacent creature with them when they teleport.
-      The creature appears in an unoccupied space adjacent to the remasch’s destination. '
+      The creature appears in an unoccupied space adjacent to the remasch''s destination. '
 - name: Grasping Shadow
   type: Maneuver
   cost: 3 Malice

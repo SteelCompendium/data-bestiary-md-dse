@@ -60,7 +60,7 @@ abilities:
       the area. Each target magically begins to turn to stone. An already slowed target
       has a bane on resisting the roll. A creature restrained by this ability or a
       creature adjacent to them can use an action to cut the encroaching stone from
-      their body, taking 8 damage which can’t be reduced in any way and ending the
+      their body, taking 8 damage which can't be reduced in any way and ending the
       effect.
 - name: Poison Fumes
   type: Action
@@ -77,7 +77,7 @@ abilities:
 - name: Lash Out
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: The basilisk takes Weapon damage.
   distance: 1 burst
   target: All enemies in the burst

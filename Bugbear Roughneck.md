@@ -22,7 +22,7 @@ reason: 0
 presence: 0
 traits:
 - name: Catcher (Free Triggered Action)
-  effect: 'Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
+  effect: 'Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
     The target is force moved into a square adjacent to the roughneck. Effect: The
     target is grabbed by the roughneck.'
 abilities:
@@ -77,11 +77,11 @@ abilities:
   target: 1 creature or object grabbed by the roughneck
   effects:
   - name: Effect
-    effect: 'Vertical push 5. Ally targets don’t take damage from being force moved. '
+    effect: 'Vertical push 5. Ally targets don''t take damage from being force moved. '
 - name: Flying Sawblade
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   trigger: The roughneck is vertically moved by another creature.

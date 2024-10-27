@@ -47,13 +47,13 @@ abilities:
   type: Triggered Action
   cost: 1 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   trigger: A creature attacks an adjacent ally.
   effects:
   - name: Effect
-    effect: 'The shieldwall becomes the attack’s target and has +3 defense against
+    effect: 'The shieldwall becomes the attack''s target and has +3 defense against
       it. '
 
 ```

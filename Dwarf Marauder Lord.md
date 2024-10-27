@@ -22,7 +22,7 @@ presence: 0
 traits:
 - name: End Effect
   effect: At the end of their turn, the marauder lord can take 5 damage to end one
-    save-ends effect affecting them. This damage can’t be reduced in any way.
+    save-ends effect affecting them. This damage can't be reduced in any way.
 abilities:
 - name: Levitating Axes
   type: Action
@@ -76,7 +76,7 @@ abilities:
   - name: Effect
     effect: 'The marauder lord uses Levitating Axes against each target. The marauder
       lord makes one power roll against all targets. '
-- name: Don’t Let Them Escape!
+- name: Don't Let Them Escape!
   type: Villain Action 2
   keywords:
   - Area
@@ -89,7 +89,7 @@ abilities:
 - name: Test Your Metal!
   type: Villain Action 3
   keywords:
-  - —
+  - '-'
   distance: Ranged 10
   target: special
   effects:

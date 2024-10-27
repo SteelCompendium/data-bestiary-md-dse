@@ -22,12 +22,12 @@ presence: 2
 traits:
 - name: End Effect
   effect: At the end of their turn, the chorogaunt can take 5 damage to end one save-ends
-    effect affecting them. This damage can’t be reduced in any way.
+    effect affecting them. This damage can't be reduced in any way.
 - name: Lethe
   effect: While winded, the chorogaunt has an edge on attacks, and attacks have an
     edge against them.
 - name: Soulsight
-  effect: Each creature within 2 of the chorogaunt can’t be hidden from them.
+  effect: Each creature within 2 of the chorogaunt can't be hidden from them.
 abilities:
 - name: Agonizing Harmony
   type: Action

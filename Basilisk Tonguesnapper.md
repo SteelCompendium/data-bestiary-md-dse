@@ -59,7 +59,7 @@ abilities:
       of the area. Each target magically begins to turn to stone. An already slowed
       target has a bane on resisting the roll. A creature restrained by this ability
       or a creature adjacent to them can use an action to cut the encroaching stone
-      from their body, taking 8 damage which can’t be reduced in any way and ending
+      from their body, taking 8 damage which can't be reduced in any way and ending
       the effect.
 - name: Wink
   type: Action
@@ -77,12 +77,12 @@ abilities:
   t3: 12 corruption damage; R3 dazed and slowed (save ends)
   effects:
   - name: Effect
-    effect: 'A creature dazed by this ability can’t benefit from edges or concealment
+    effect: 'A creature dazed by this ability can''t benefit from edges or concealment
       until the condition ends. '
 - name: Neurotoxin Splash
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: The tonguesnapper takes Weapon damage.
   distance: 2 burst
   target: All enemies in the burst

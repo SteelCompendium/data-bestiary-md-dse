@@ -23,8 +23,8 @@ reason: -5
 presence: 1
 traits:
 - name: Arise
-  effect: The first time the zombie is reduced to Stamina 0 by damage that isn’t fire
-    damage or holy damage and their body isn’t destroyed, they regain half their Stamina
+  effect: The first time the zombie is reduced to Stamina 0 by damage that isn't fire
+    damage or holy damage and their body isn't destroyed, they regain half their Stamina
     and fall prone.
 - name: Endless Knight
   effect: The zombie can take advantage of their Arise trait twice.

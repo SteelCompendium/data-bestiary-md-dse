@@ -41,8 +41,8 @@ abilities:
   distance: Melee 2
   target: One creature or object
   t1: 5 damage; A2 prone
-  t2: 9 damage; A3 prone and can’t stand (EoT)
-  t3: 12 damage; A4 prone and can’t stand (save ends)
+  t2: 9 damage; A3 prone and can't stand (EoT)
+  t3: 12 damage; A4 prone and can't stand (save ends)
   effects:
   - name: Effect
     effect: 'Each enemy within 1 square of the target takes 2 damage. '
@@ -94,14 +94,14 @@ abilities:
   type: Triggered Action
   cost: 1 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   trigger: The cryptic takes damage
   effects:
   - name: Effect
-    effect: 'The cryptic halves the damage, doesn’t suffer any additional effect associated
-      with it, and shifts up to 3 squares. '
+    effect: 'The cryptic halves the damage, doesn''t suffer any additional effect
+      associated with it, and shifts up to 3 squares. '
 - name: First Warning Quake
   type: Villain Action 1
   cost: MGT RR
@@ -110,7 +110,7 @@ abilities:
   - Resistance
   distance: 5 burst
   target: Each enemy on the ground in the burst
-  t1: The target is prone and can’t stand (EoT)
+  t1: The target is prone and can't stand (EoT)
   t2: Prone
   t3: No effect
   effects:

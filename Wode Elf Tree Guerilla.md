@@ -21,7 +21,7 @@ agility: 2
 reason: 0
 presence: 1
 traits:
-- name: Hunter’s Glamor
+- name: Hunter's Glamor
   effect: The tree guerilla immediately hides at the end of their turn, even if they
     are observed.
 abilities:
@@ -48,10 +48,10 @@ abilities:
   type: Free Triggered Action
   cost: 3 Malice
   keywords:
-  - —
+  - '-'
   distance: Self and Squad
   target: Self and Squad
-  trigger: An ally ends their turn while the tree guerilla hasn’t acted this round.
+  trigger: An ally ends their turn while the tree guerilla hasn't acted this round.
   effects:
   - name: Effect
     effect: 'The targets take their turn immediately. Each target has **+1** until

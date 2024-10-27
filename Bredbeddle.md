@@ -22,19 +22,19 @@ traits:
 - name: Solo Monster
   effect: ''
 - name: Resilient Form
-  effect: The bredbeddle can’t be physically transformed in any way except by their
+  effect: The bredbeddle can't be physically transformed in any way except by their
     Heady or Not trait.
 - name: Heady or Not
   effect: While headless, the bredbeddle can move into a space with a severed head
     and attach it to their neck. Doing so physically transforms the bredbeddle, who
-    takes on the size, weight, reach, and stability of the head’s original owner.
+    takes on the size, weight, reach, and stability of the head's original owner.
     These effects last until the bredbeddle is killed or beheaded, or until the head
     falls off after 24 hours. A head that falls off can no longer be attached to the
     bredbeddle.  A creature must succeed on a hard Might test made as a maneuver to
-    rip a head off the bredbeddle. If they fail, the bredbeddle can use Executioner’s
+    rip a head off the bredbeddle. If they fail, the bredbeddle can use Executioner's
     Swing against them.
 abilities:
-- name: Executioner’s Swing
+- name: Executioner's Swing
   type: Action
   roll: 2d10 + 3
   cost: Signature
@@ -65,14 +65,14 @@ abilities:
   - name: Effect
     effect: 'A beheaded target has their head fall into an unoccupied square adjacent
       to the bredbeddle, but they remain alive. While beheaded, the target is dazed
-      and can’t have line of effect to any creature other than themselves. The beheaded
+      and can''t have line of effect to any creature other than themselves. The beheaded
       target can survive without their head for 24 hours, and can reattach their head
       by entering its square and using a maneuver to do so. A target who remains beheaded
       for 24 hours dies. '
 - name: Scramble
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:
@@ -110,7 +110,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'The bredbeddle uses the same ability against the triggering creature,
-      using that creature’s bonus to any power rolls they make. '
+      using that creature''s bonus to any power rolls they make. '
 - name: Turn Green
   type: Villain Action 1
   cost: PRS RR
@@ -125,13 +125,13 @@ abilities:
   t3: 'No effect '
   effects:
   - name: Effect
-    effect: Green shadows crawl out from under the bredbeddle’s feet and attempt to
+    effect: Green shadows crawl out from under the bredbeddle's feet and attempt to
       turn each target green. The bredbeddle has a double edge on attacks made against
       targets turned green in this way.
 - name: Challenge
   type: Villain Action 2
   keywords:
-  - —
+  - '-'
   distance: Ranged 5
   target: One creature who damaged the bredbeddle this encounter
   effects:

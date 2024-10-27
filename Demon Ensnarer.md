@@ -22,7 +22,7 @@ reason: -1
 presence: -1
 traits:
 - name: Soulsight
-  effect: Each creature within 2 of the ensnarer can’t be hidden from them.
+  effect: Each creature within 2 of the ensnarer can't be hidden from them.
 abilities:
 - name: Barbed Tongues
   type: Action

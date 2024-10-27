@@ -37,6 +37,6 @@ abilities:
   t2: 4 damage
   effects:
   - name: Effect
-    effect: The target can’t use triggered actions until the start of the next round.
+    effect: The target can't use triggered actions until the start of the next round.
 
 ```

@@ -22,7 +22,7 @@ presence: 3
 traits:
 - name: End Effect
   effect: At the end of their turn, the maestro can take 5 damage to end one save
-    ends effect affecting them. This damage can’t be reduced in any way.
+    ends effect affecting them. This damage can't be reduced in any way.
 abilities:
 - name: Cacophony
   type: Action

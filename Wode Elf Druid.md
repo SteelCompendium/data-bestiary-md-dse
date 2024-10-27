@@ -39,7 +39,7 @@ abilities:
   t2: 5 damage; pull 3; M2 slowed (save ends)
   effects:
   - name: Effect
-    effect: A creature slowed by this ability can’t search for hidden creatures until
+    effect: A creature slowed by this ability can't search for hidden creatures until
       the condition ends.
   - name: 3 Malice
     effect: 'The area of the cube and the potency of the effect both increase by 1. '

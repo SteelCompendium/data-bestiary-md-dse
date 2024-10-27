@@ -25,7 +25,7 @@ traits:
   effect: A prone creature gains an edge on melee attacks against the ankheg instead
     of taking a bane.
 - name: Earthwalk
-  effect: Difficult terrain composed of earth or loose rock doesn’t cost the ankheg
+  effect: Difficult terrain composed of earth or loose rock doesn't cost the ankheg
     extra movement.
 - name: Tunneler
   effect: When the ankheg burrows, they create a size 2 tunnel. The tunnel remains
@@ -89,7 +89,7 @@ abilities:
 - name: Skitter
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   trigger: A creature damages the ankheg
@@ -115,7 +115,7 @@ abilities:
 - name: Sinkhole
   type: Villain Action 2
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

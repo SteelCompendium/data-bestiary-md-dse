@@ -22,8 +22,8 @@ agility: -1
 reason: -3
 presence: -2
 traits:
-- name: You Didn’t Pay Attention! (Free Triggered Action)
-  effect: 'Keywords: — Trigger: A creature moves or is force moved into the cube.
+- name: You Didn't Pay Attention! (Free Triggered Action)
+  effect: 'Keywords: - Trigger: A creature moves or is force moved into the cube.
     Distance: Self Target: Self Effect: The cube uses Engulf with a double edge.'
 - name: Translucent Cube
   effect: The cube completely occupies its space, blocking line of effect on enemy
@@ -44,7 +44,7 @@ abilities:
   effects:
   - name: Effect
     effect: A size 2 or smaller creature restrained by this attack is pulled into
-      one of the cube’s squares and moves with the cube. The creature takes 3 acid
+      one of the cube's squares and moves with the cube. The creature takes 3 acid
       damage at the start of each of their turns while restrained. When restrained
       ends, the creature moves to the nearest unoccupied square adjacent to the cube.
   - name: 3 Malice

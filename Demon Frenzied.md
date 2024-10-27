@@ -22,7 +22,7 @@ reason: -1
 presence: -1
 traits:
 - name: Soulsight
-  effect: Each creature within 2 of the frenzied can’t be hidden from them.
+  effect: Each creature within 2 of the frenzied can't be hidden from them.
 abilities:
 - name: Rip and Tear
   type: Action

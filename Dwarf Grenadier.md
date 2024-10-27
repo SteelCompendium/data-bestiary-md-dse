@@ -21,7 +21,7 @@ reason: 0
 presence: 0
 traits:
 - name: Indirect Fire
-  effect: The grenadier ignores cover and concealment and doesn’t need to establish
+  effect: The grenadier ignores cover and concealment and doesn't need to establish
     line of effect for their abilities.
 abilities:
 - name: Concussive Grenade

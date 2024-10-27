@@ -23,8 +23,8 @@ presence: 2
 traits:
 - name: End Effect
   effect: At the end of their turn, the penteulu can take 5 damage to end one save
-    ends effect affecting them. This damage can’t be reduced in any way.
-- name: Hunter’s Glamor
+    ends effect affecting them. This damage can't be reduced in any way.
+- name: Hunter's Glamor
   effect: The penteulu immediately hides at the end of their turn, even if they are
     observed.
 abilities:
@@ -56,11 +56,11 @@ abilities:
   effects:
   - name: Effect
     effect: 'Each target can make a free strike and then shifts 3. A target immediately
-      hides at the end of the penteulu’s turn while in cover or concealment. '
+      hides at the end of the penteulu''s turn while in cover or concealment. '
 - name: Wode Sickness
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: An ally ends their turn.
   distance: Ranged 10
   target: 1 enemy

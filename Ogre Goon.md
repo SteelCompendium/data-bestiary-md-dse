@@ -71,13 +71,13 @@ abilities:
   t2: 4 damage
   effects:
   - name: Effect
-    effect: 'The goon hurls what’s in their hand down the line and rolls power. The
+    effect: 'The goon hurls what''s in their hand down the line and rolls power. The
       hurled creature or object counts as a target and lands in the last square of
-      the line (or nearest unoccupied square of the goon’s choice). '
+      the line (or nearest unoccupied square of the goon''s choice). '
 - name: Swat The Fly
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: The target moves or shifts away from the goon.
   distance: Melee 1
   target: 1 adjacent creature or object

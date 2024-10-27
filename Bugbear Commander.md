@@ -22,10 +22,10 @@ reason: 2
 presence: 0
 traits:
 - name: Catcher (Free Triggered Action)
-  effect: 'Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
+  effect: 'Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
     The target is force moved into a square adjacent to the commander. Effect: The
     target is grabbed by the commander.'
-- name: The Commander’s Watching
+- name: The Commander's Watching
   effect: While an ally has line of effect to the commander, the ally can end one
     condition afflicting them at the start of their turn.
 abilities:
@@ -45,11 +45,11 @@ abilities:
   effects:
   - name: Effect
     effect: '1 ally within 5 of the commander has an edge on their next attack until
-      the start of the commander’s next turn. '
+      the start of the commander''s next turn. '
 - name: You Next!
   type: Action
   keywords:
-  - —
+  - '-'
   distance: Ranged 8
   target: 1 ally
   effects:
@@ -59,7 +59,7 @@ abilities:
   type: Action
   cost: 5 Malice
   keywords:
-  - —
+  - '-'
   distance: Self and 5 burst
   target: Self and all allies
   effects:
@@ -75,6 +75,6 @@ abilities:
   target: 1 creature or object grabbed by the commander
   effects:
   - name: Effect
-    effect: 'Vertical push 4; ally targets don’t take damage from being force moved. '
+    effect: 'Vertical push 4; ally targets don''t take damage from being force moved. '
 
 ```

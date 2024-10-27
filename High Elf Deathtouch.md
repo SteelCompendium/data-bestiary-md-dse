@@ -53,8 +53,8 @@ abilities:
   target: 1 ally
   effects:
   - name: Effect
-    effect: 'The target’s speed increases by 5 and they cannot get results lower than
-      tier 3 on their power rolls. The target immediately dies at the end of their
-      next turn. '
+    effect: 'The target''s speed increases by 5 and they cannot get results lower
+      than tier 3 on their power rolls. The target immediately dies at the end of
+      their next turn. '
 
 ```

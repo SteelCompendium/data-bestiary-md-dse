@@ -21,7 +21,7 @@ reason: -1
 presence: 2
 traits:
 - name: Beast of Prey
-  effect: Creatures have a double bane on escaping the griffon’s grab.
+  effect: Creatures have a double bane on escaping the griffon's grab.
 - name: Steady
   effect: Creatures have a bane on power rolls that could knock the griffon or their
     rider prone.
@@ -57,7 +57,7 @@ abilities:
   effects:
   - name: Effect
     effect: The griffon flies up to half their speed towards the ground and then sends
-      the creature or object they’ve grappled hurtling towards the affected area.
+      the creature or object they've grappled hurtling towards the affected area.
 - name: Wing Buffet
   type: Maneuver
   roll: MGT RR
@@ -74,13 +74,13 @@ abilities:
   type: Triggered Action
   cost: 1 Malice
   keywords:
-  - —
+  - '-'
   trigger: The griffon takes damage
   distance: Self
   target: Self
   effects:
   - name: Effect
-    effect: 'The griffon halves the damage, doesn’t suffer any effect associated with
-      it, and shifts 2 squares. '
+    effect: 'The griffon halves the damage, doesn''t suffer any effect associated
+      with it, and shifts 2 squares. '
 
 ```

@@ -76,7 +76,7 @@ abilities:
 - name: Hrraaaaaagh!
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: The juggernaut takes damage.
   distance: Melee 1
   target: 1 creature or object

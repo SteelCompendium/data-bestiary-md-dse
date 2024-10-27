@@ -71,7 +71,7 @@ abilities:
   effects:
   - name: Effect
     effect: The hag alters their body to become any Size-1 creature, such as a house
-      cat. If the hag uses this ability while outside of an enemy’s line of effect,
+      cat. If the hag uses this ability while outside of an enemy's line of effect,
       the hag is considered hidden. The hag can return to their original form as a
       free maneuver.
   - name: 5 Malice

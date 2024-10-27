@@ -21,7 +21,7 @@ reason: 0
 presence: 2
 traits:
 - name: Crafty
-  effect: The stinker doesn’t provoke opportunity attacks by moving.
+  effect: The stinker doesn't provoke opportunity attacks by moving.
 abilities:
 - name: Toxic Winds
   type: Action
@@ -49,10 +49,10 @@ abilities:
   target: Special
   effects:
   - name: Effect
-    effect: 'The area is filled with a green haze until the start of the stinker’s
+    effect: 'The area is filled with a green haze until the start of the stinker''s
       next turn or until the stinker is reduced to Stamina 0. The area is difficult
       terrain for non-goblin creatures, and each such creature who moves within the
-      area takes 2 poison damage for each square moved. The haze can’t be dispersed
+      area takes 2 poison damage for each square moved. The haze can''t be dispersed
       by wind. '
 
 ```

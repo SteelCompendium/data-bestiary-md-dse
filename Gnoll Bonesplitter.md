@@ -38,18 +38,18 @@ abilities:
   t2: 7 damage; grabbed; M2 target has a bane on attempts to escape grab
   effects:
   - name: Effect
-    effect: 'The bonesplitter can’t use three-tail flail on another target while the
-      current target is grabbed. '
+    effect: 'The bonesplitter can''t use three-tail flail on another target while
+      the current target is grabbed. '
 - name: Cackletongue
   type: Maneuver
   cost: 3 Malice
   keywords:
-  - —
+  - '-'
   distance: Self and 2 burst
   target: Self and all allies
   effects:
   - name: Effect
-    effect: 'Each target makes a free strike. Targets who haven’t used a cackletongue
+    effect: 'Each target makes a free strike. Targets who haven''t used a cackletongue
       maneuver on this turn use it immediately at no cost. '
 
 ```

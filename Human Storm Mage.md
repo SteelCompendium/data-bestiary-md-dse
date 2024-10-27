@@ -28,7 +28,7 @@ traits:
     damage and is pushed 2 squares.
 - name: Studied Supernatural Insight
   effect: The storm mage can target supernatural creatures and objects within 10 squares,
-    even if they don’t have line of effect.
+    even if they don't have line of effect.
 abilities:
 - name: Lightning Bolt
   type: Action

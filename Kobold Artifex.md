@@ -38,12 +38,12 @@ abilities:
   t2: 4 damage; pull 2
   effects:
   - name: Effect
-    effect: 'If the target’s forced movement triggers a trap, the target has a bane
+    effect: 'If the target''s forced movement triggers a trap, the target has a bane
       on all resistance rolls against that trap. '
 - name: Activate Trap
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Ranged 10
   target: 1 trap or terrain object
   effects:

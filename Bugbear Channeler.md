@@ -22,7 +22,7 @@ reason: 2
 presence: 2
 traits:
 - name: Catcher (Free Triggered Action)
-  effect: 'Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
+  effect: 'Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
     The target is force moved into a square adjacent to the channeler. Effect: The
     target is grabbed by the channeler.'
 abilities:
@@ -83,7 +83,7 @@ abilities:
   target: 1 creature or object grabbed by the channeler
   effects:
   - name: Effect
-    effect: 'Vertical push 3; ally targets don’t take damage from being force moved. '
+    effect: 'Vertical push 3; ally targets don''t take damage from being force moved. '
 - name: Brambleguard
   type: Triggered Action
   cost: 1 Malice

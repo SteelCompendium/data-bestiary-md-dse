@@ -24,7 +24,7 @@ traits:
   effect: While winded, the torlas has an edge on attacks, and attacks have an edge
     against them.
 - name: Soulsight
-  effect: Each creature within 2 of the torlas can’t be hidden from them.
+  effect: Each creature within 2 of the torlas can't be hidden from them.
 abilities:
 - name: Cronenstorm
   type: Action
@@ -42,7 +42,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'The area turns into a morass of spongy flesh before the targets are force
-      moved. Until the start of the torlas’s next turn, the area is difficult terrain,
+      moved. Until the start of the torlas''s next turn, the area is difficult terrain,
       and each creature who moves within the area takes 1 damage for each square moved. '
 - name: Grasping Tendons
   type: Maneuver

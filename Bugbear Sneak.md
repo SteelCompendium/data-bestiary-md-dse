@@ -22,7 +22,7 @@ reason: 0
 presence: 0
 traits:
 - name: Catcher (Free Triggered Action)
-  effect: 'Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
+  effect: 'Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
     The target is force moved into a square adjacent to the sneak. Effect: The target
     is grabbed by the sneak.'
 abilities:
@@ -41,7 +41,7 @@ abilities:
   t3: 12 damage; grabbed
   effects:
   - name: Effect
-    effect: 'The target can’t use triggered actions until the start of the next round.
+    effect: 'The target can''t use triggered actions until the start of the next round.
       This attack has double edge if the sneak started their turn hidden from the
       target. '
 - name: Dirt Devil
@@ -72,7 +72,7 @@ abilities:
   t3: 12 damage; M3 bleeding (save ends)
   effects:
   - name: Effect
-    effect: 'Targets can’t hide from the sneak or their allies while bleeding from
+    effect: 'Targets can''t hide from the sneak or their allies while bleeding from
       this ability. '
 - name: Throw
   type: Maneuver
@@ -83,12 +83,12 @@ abilities:
   target: 1 creature or object grabbed by the sneak
   effects:
   - name: Effect
-    effect: 'Vertical push 4. Ally targets don’t take damage from being force moved. '
+    effect: 'Vertical push 4. Ally targets don''t take damage from being force moved. '
 - name: Misdirection
   type: Triggered Action
   cost: 1 Malice
   keywords:
-  - —
+  - '-'
   distance: Special
   target: 1 enemy
   trigger: A target attacks the sneak.

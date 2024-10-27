@@ -24,10 +24,10 @@ presence: 2
 traits:
 - name: End Effect
   effect: At the end of their turn, the bandit chief can take 5 damage to end one
-    "save ends" effect affecting them. This damage can’t be reduced in any way.
+    "save ends" effect affecting them. This damage can't be reduced in any way.
 - name: Heightened Supernatural Insight
   effect: The bandit chief can target supernatural creatures and objects within 15
-    squares, even if they don’t have line of effect.
+    squares, even if they don't have line of effect.
 abilities:
 - name: Whip & Magic Longsword
   type: Action
@@ -97,7 +97,7 @@ abilities:
 - name: Lead From the Front
   type: Villain Action 3
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

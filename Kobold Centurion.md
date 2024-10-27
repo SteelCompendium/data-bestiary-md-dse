@@ -22,7 +22,7 @@ presence: 2
 traits:
 - name: End Effect
   effect: At the end of their turn, the centurion can take 5 damage to end one save-ends
-    effect affecting them. This damage can’t be reduced in any way.
+    effect affecting them. This damage can't be reduced in any way.
 - name: Shield? Shield!
   effect: The centurion has increased Stability by 1 and can act as cover for allies
     when adjacent to an ally who also has this trait.
@@ -48,12 +48,12 @@ abilities:
 - name: Concentrate All Fire on That Hero!
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Ranged 10
   target: One enemy
   effects:
   - name: Effect
-    effect: The target is marked until the start of the centurion’s next turn. The
+    effect: The target is marked until the start of the centurion's next turn. The
       centurion and each of their allies gain an edge and advantage on attacks against
       targets marked by the centurion.
   - name: 3+ Malice

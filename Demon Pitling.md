@@ -22,10 +22,10 @@ reason: -2
 presence: -2
 traits:
 - name: Horrid Stench
-  effect: Any enemy who has three or more pitlings within 2 squares of them can’t
+  effect: Any enemy who has three or more pitlings within 2 squares of them can't
     regain Stamina.
 - name: Soulsight
-  effect: Each creature within 2 of the pitling can’t be hidden from them.
+  effect: Each creature within 2 of the pitling can't be hidden from them.
 abilities:
 - name: Spit
   type: Action

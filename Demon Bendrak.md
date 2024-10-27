@@ -24,7 +24,7 @@ traits:
   effect: While winded, the bendrak has an edge on attacks, and attacks have an edge
     against them.
 - name: Soulsight
-  effect: Each creature within 2 of the bendrak can’t be hidden from them.
+  effect: Each creature within 2 of the bendrak can't be hidden from them.
 abilities:
 - name: Warp Perceptions
   type: Action
