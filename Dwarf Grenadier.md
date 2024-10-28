@@ -36,6 +36,7 @@ abilities:
   target: All enemies
   t1: 3 damage; push 1; M1 slowed (save ends)
   t2: 5 damage; push 3; M2 slowed (save ends)
+  t3: 7 damage; push 5; M3 slowed (save ends)
   effects:
   - name: Effect
     effect: 'A target restrained by a dwarf can be pushed by this ability. '
@@ -50,6 +51,7 @@ abilities:
   target: All enemies
   t1: 3 poison damage; I1 dazed (save ends)
   t2: 5 poison damage; I2 dazed (save ends)
+  t3: 7 poison damage; I3 dazed (save ends)
   effects:
   - name: Effect
     effect: 'A creature dazed by this ability has -1 to all characteristics while

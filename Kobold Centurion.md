@@ -40,6 +40,7 @@ abilities:
   target: 2 creatures or objects
   t1: 2 damage; 2 weakened (save ends)
   t2: 5 damage; 3 weakened (save ends)
+  t3: 6 damage; 4 weakened (save ends)
   effects:
   - name: Effect
     effect: Any allies adjacent to a target of this attack can make a free strike.

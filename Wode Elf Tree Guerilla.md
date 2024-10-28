@@ -38,6 +38,7 @@ abilities:
   target: 1 creature or object
   t1: 5 damage; M1 bleeding (save ends)
   t2: 9 damage; M2 bleeding (save ends)
+  t3: 12 damage; M3 bleeding (save ends)
   effects:
   - name: Effect
     effect: The tree guerilla can teleport 3 after making the attack.

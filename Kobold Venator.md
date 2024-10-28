@@ -43,6 +43,7 @@ abilities:
   target: 1 creature or object
   t1: 2 damage; 1 restrained (save ends)
   t2: 5 damage; 2 restrained (save ends)
+  t3: 6 damage; 3 restrained (save ends)
   effects:
   - name: 3 Malice
     effect: 'Creatures and objects restrained by this ability take 2 fire damage at

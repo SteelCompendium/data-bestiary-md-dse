@@ -37,6 +37,7 @@ abilities:
   target: All enemies in the cube
   t1: 3 damage; pull 1; M1 slowed (save ends)
   t2: 5 damage; pull 3; M2 slowed (save ends)
+  t3: 7 damage; pull 5; M3 slowed (save ends)
   effects:
   - name: Effect
     effect: A creature slowed by this ability can't search for hidden creatures until

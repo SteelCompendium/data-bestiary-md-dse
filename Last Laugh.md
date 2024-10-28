@@ -41,6 +41,7 @@ abilities:
   target: 2 creatures or objects
   t1: 4 damage; A2 bleeding (save ends)
   t2: 7 damage; A3 bleeding (save ends)
+  t3: 10 damage; A4 bleeding and dazed (save ends)
   effects:
   - name: Effect
     effect: 'An ally targeted by this ability makes a free strike instead of taking
@@ -68,6 +69,7 @@ abilities:
   target: All enemies
   t1: Frightened of the last laugh (save ends)
   t2: Frightened of the last laugh (EoT)
+  t3: No effect
   effects:
   - name: Effect
     effect: 'While frightened by this ability, targets laugh uncontrollably and cannot

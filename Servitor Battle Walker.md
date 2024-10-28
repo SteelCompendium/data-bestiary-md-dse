@@ -41,6 +41,7 @@ abilities:
   target: 2 creatures or objects
   t1: 4 damage; M1 slowed (save ends)
   t2: 7 damage; M2 slowed (save ends)
+  t3: 10 damage; M3 restrained (save ends)
   effects:
   - name: Effect
     effect: 'Restrained targets and targets restrained by this ability are pulled
@@ -55,5 +56,6 @@ abilities:
   target: All enemies in the burst
   t1: 2 lightning damage; A1 slowed (save ends)
   t2: 3 lightning damage; A2 slowed (save ends)
+  t3: '5 lightning damage; A3 slowed (save ends) '
 
 ```

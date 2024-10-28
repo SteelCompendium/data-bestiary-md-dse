@@ -37,6 +37,7 @@ abilities:
   target: 3 creatures or objects
   t1: 3 damage; pull 1; A2 bleeding (save ends)
   t2: 7 damage; pull 1; A3 bleeding (save ends)
+  t3: 10 damage; pull 2; A4 bleeding (save ends)
   effects:
   - name: 1 Malice
     effect: 'One target that is adjacent to the deathrex is grabbed by the deathrex''s
@@ -53,6 +54,7 @@ abilities:
   target: 1 grabbed creature or object
   t1: 5 damage; M2 dazed (save ends)
   t2: 10 damage; M3 dazed (save ends)
+  t3: 15 damage; M4 dazed (save ends)
   effects:
   - name: Effect
     effect: 'The target is released from the grab and slides 5. '
