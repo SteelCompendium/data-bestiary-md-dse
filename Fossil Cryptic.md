@@ -21,7 +21,11 @@ reason: 1
 presence: 0
 traits:
 - name: Solo Monster
-  effect: ''
+  effect: '- **Solo Turns**: The cryptic takes two turns each round. They can use
+    two actions on each of their turns and can take each turn after any enemy''s turn.
+    While dazed, the cryptic can take one action and one maneuver per turn. - **End
+    Effect**: At the end of their turn, the cryptic can take 5 damage to end one save
+    ends effect affecting them. This damage can''t be reduced in any way.'
 - name: Churning Trunk
   effect: The cryptic emits a 1-square aura of swirling debris that obscures their
     form. Any enemy who enters the aura for the first time in a round or starts their
