@@ -58,7 +58,7 @@ abilities:
       each of their turns. '
 - name: Claws
   type: Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -69,6 +69,10 @@ abilities:
   t2: 4 damage; A3 grabbed
   t3: 5 damage; A4 grabbed
   effects:
+  - roll: 2d10 + 3
+    t1: 2 damage; A2 grabbed
+    t2: 4 damage; A3 grabbed
+    t3: 5 damage; A4 grabbed
   - name: 2 Malice
     effect: 'The ankheg can vertical slide one or both targets up to 5 squares. '
 - name: Earth Eruption
@@ -113,7 +117,7 @@ abilities:
     effect: 'The ankheg shifts up to 3 squares. '
 - name: Acid Breath
   type: Villain Action 1
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Weapon
@@ -123,6 +127,10 @@ abilities:
   t2: 6 acid damage
   t3: 7 acid damage
   effects:
+  - roll: 2d10 + 3
+    t1: 4 acid damage
+    t2: 6 acid damage
+    t3: 7 acid damage
   - name: Effect
     effect: 'The ground within the area is covered in a puddle of acid that lasts
       until the end of the encounter. A creature who enters the area for the first
@@ -140,7 +148,7 @@ abilities:
       ankheg makes a Bite attack against the creature. '
 - name: Acid and Claws
   type: Villain Action 3
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Weapon
@@ -149,5 +157,10 @@ abilities:
   t1: 5 acid damage; M2 bleeding (save ends)
   t2: 7 acid damage; M3 bleeding (save ends)
   t3: 10 acid damage; M4 bleeding (save ends)
+  effects:
+  - roll: 2d10 + 3
+    t1: 5 acid damage; M2 bleeding (save ends)
+    t2: 7 acid damage; M3 bleeding (save ends)
+    t3: 10 acid damage; M4 bleeding (save ends)
 
 ```

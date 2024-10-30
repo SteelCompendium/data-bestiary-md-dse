@@ -64,7 +64,7 @@ abilities:
       at no cost. '
 - name: Not the Best Time to Laugh
   type: Villain Action 1
-  cost: INU RR
+  roll: INU RR
   keywords:
   - Area
   - Magic
@@ -75,6 +75,10 @@ abilities:
   t2: Frightened of the last laugh (EoT)
   t3: No effect
   effects:
+  - roll: INU RR
+    t1: Frightened of the last laugh (save ends)
+    t2: Frightened of the last laugh (EoT)
+    t3: No effect
   - name: Effect
     effect: 'While frightened by this ability, targets laugh uncontrollably and cannot
       use triggered actions. '

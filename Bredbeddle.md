@@ -133,7 +133,7 @@ abilities:
       using that creature''s bonus to any power rolls they make. '
 - name: Turn Green
   type: Villain Action 1
-  cost: PRS RR
+  roll: PRS RR
   keywords:
   - Area
   - Magic
@@ -144,6 +144,10 @@ abilities:
   t2: The target turns green (save ends)
   t3: 'No effect '
   effects:
+  - roll: PRS RR
+    t1: The target turns green and is slowed (save ends)
+    t2: The target turns green (save ends)
+    t3: 'No effect '
   - name: Effect
     effect: Green shadows crawl out from under the bredbeddle's feet and attempt to
       turn each target green. The bredbeddle has a double edge on attacks made against
@@ -162,7 +166,7 @@ abilities:
       no additional modifiers.
 - name: Headlam Rampage
   type: Villain Action 3
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -172,5 +176,10 @@ abilities:
   t1: 3 damage; bleeding (save ends) or M2 beheaded (see Lop)
   t2: 4 damage; bleeding (save ends) or M3 beheaded (see Lop)
   t3: 5 damage; bleeding (save ends) or M4 beheaded (see Lop)
+  effects:
+  - roll: 2d10 + 3
+    t1: 3 damage; bleeding (save ends) or M2 beheaded (see Lop)
+    t2: 4 damage; bleeding (save ends) or M3 beheaded (see Lop)
+    t3: 5 damage; bleeding (save ends) or M4 beheaded (see Lop)
 
 ```

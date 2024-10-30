@@ -69,7 +69,7 @@ abilities:
       to end this condition. '
 - name: Claws
   type: Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -79,6 +79,11 @@ abilities:
   t1: 3 damage
   t2: 4 damage; 1 ferocity; M2 push 3
   t3: '5 damage; 3 ferocity; M3 vertical slide 3 '
+  effects:
+  - roll: 2d10 + 3
+    t1: 3 damage
+    t2: 4 damage; 1 ferocity; M2 push 3
+    t3: '5 damage; 3 ferocity; M3 vertical slide 3 '
 - name: Berserker Slash
   type: Action
   cost: 5 Malice
@@ -115,7 +120,7 @@ abilities:
     effect: 'Target is knocked prone and takes 5 damage before the attack begins. '
 - name: Howl
   type: Villain Action 1
-  cost: INU RR
+  roll: INU RR
   keywords:
   - Area
   - Resistance
@@ -125,6 +130,10 @@ abilities:
   t2: Frightened (EoT)
   t3: no effect
   effects:
+  - roll: INU RR
+    t1: Target moves up to their speed away from the werewolf; frightened (save ends)
+    t2: Frightened (EoT)
+    t3: no effect
   - name: Effect
     effect: 'Enemies that have 1 or more ferocity gain 4 ferocity and howl along with
       the werewolf. '
@@ -144,7 +153,7 @@ abilities:
       increases by 1. '
 - name: Rampage
   type: Villain Action 3
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Melee
@@ -155,6 +164,10 @@ abilities:
   t2: 4 damage; 4 ferocity
   t3: 5 damage; 8 ferocity; prone
   effects:
+  - roll: 2d10 + 3
+    t1: 3 damage; 2 ferocity
+    t2: 4 damage; 4 ferocity
+    t3: 5 damage; 8 ferocity; prone
   - name: Effect
     effect: The werewolf shifts up to twice their speed either before or after the
       attack.

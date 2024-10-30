@@ -51,7 +51,7 @@ abilities:
     effect: 'Each target is M2 bleeding (save ends). '
 - name: Earth Breaking Jump
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Area
   - Melee
@@ -62,6 +62,10 @@ abilities:
   t2: 4 damage; push 2; M2 prone
   t3: '5 damage; push 4; M3 prone '
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; M1 prone
+    t2: 4 damage; push 2; M2 prone
+    t3: '5 damage; push 4; M3 prone '
   - name: Effect
     effect: 'The juggernaut leaps up to 6 squares before making the attack. '
 - name: Horrible Bellow

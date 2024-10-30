@@ -48,7 +48,7 @@ abilities:
     t3: '10 poison damage; M3 weakened (save ends) '
 - name: Leg Blade
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
@@ -58,6 +58,11 @@ abilities:
   t1: 4 damage
   t2: 7 damage
   t3: '10 damage '
+  effects:
+  - roll: 2d10 + 2
+    t1: 4 damage
+    t2: 7 damage
+    t3: '10 damage '
 - name: Trample
   type: Action
   cost: 5 Malice

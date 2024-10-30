@@ -47,7 +47,7 @@ abilities:
       takes damage from any forced movement it causes. '
 - name: Grabby Hand
   type: Maneuver
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
@@ -58,6 +58,10 @@ abilities:
   t2: 9 damage; grabbed
   t3: 12 damage; grabbed
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage
+    t2: 9 damage; grabbed
+    t3: 12 damage; grabbed
   - name: Effect
     effect: The goon can only have one target grabbed at a time.
   - name: 1 Malice

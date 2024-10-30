@@ -49,7 +49,7 @@ abilities:
     effect: 'The tonguesnapper targets two additional creatures or objects. '
 - name: Petrifying Eye Beams
   type: Maneuver
-  cost: MGT RR
+  roll: MGT RR
   keywords:
   - Magic
   - Ranged
@@ -60,6 +60,10 @@ abilities:
   t2: Slowed (save ends)
   t3: Slowed (EoT)
   effects:
+  - roll: MGT RR
+    t1: Restrained (save ends)
+    t2: Slowed (save ends)
+    t3: Slowed (EoT)
   - name: Effect
     effect: The tonguesnapper targets the first unobstructed creature in each column
       of the area. Each target magically begins to turn to stone. An already slowed

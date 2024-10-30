@@ -64,7 +64,7 @@ abilities:
     effect: 'The sneak shifts up to their speed and hides after using this ability. '
 - name: Carving Dagger
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Ranged
@@ -75,6 +75,10 @@ abilities:
   t2: 9 damage; M2 bleeding (save ends)
   t3: 12 damage; M3 bleeding (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; M1 bleeding (save ends)
+    t2: 9 damage; M2 bleeding (save ends)
+    t3: 12 damage; M3 bleeding (save ends)
   - name: Effect
     effect: 'Targets can''t hide from the sneak or their allies while bleeding from
       this ability. '

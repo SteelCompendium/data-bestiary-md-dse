@@ -79,7 +79,7 @@ abilities:
     t3: 'Push 3 '
 - name: Circle and Strike
   type: Triggered Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - '-'
   trigger: The [[Griffon|griffon]] flies above a creature on the ground within 10
@@ -89,6 +89,10 @@ abilities:
   t2: A2 grabbed
   t3: 5 damage; A3 grabbed
   effects:
+  - roll: 2d10 + 2
+    t1: Push 3
+    t2: A2 grabbed
+    t3: 5 damage; A3 grabbed
   - name: Effect
     effect: 'The [[Griffon|griffon]] falls down upon the target, taking no damage from falling.
       A creature who is grabbed by the [[Griffon|griffon]] is prone and can''t stand until they

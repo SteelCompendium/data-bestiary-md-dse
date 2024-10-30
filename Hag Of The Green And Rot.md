@@ -53,7 +53,7 @@ abilities:
       start of each of their turns until the condition ends. '
 - name: Soul Steal
   type: Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Magic
@@ -63,6 +63,10 @@ abilities:
   t2: 7 corruption damage; P2 target has a bane on power rolls (save ends)
   t3: 10 corruption damage; P3 target has a double bane on power rolls (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 4 corruption damage
+    t2: 7 corruption damage; P2 target has a bane on power rolls (save ends)
+    t3: 10 corruption damage; P3 target has a double bane on power rolls (save ends)
   - name: Effect
     effect: 'This ability has an edge against creatures with a soul. The hag regains
       Stamina equal to half the total damage dealt. '
@@ -104,7 +108,7 @@ abilities:
       is suspended in midair until the condition ends. '
 - name: Snackies for Sweeties
   type: Villain Action 1
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Magic
@@ -114,6 +118,10 @@ abilities:
   t2: 6 poison damage; A3 bleeding (save ends)
   t3: 4 poison damage; A4 bleeding (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 4 poison damage; A2 bleeding (save ends)
+    t2: 6 poison damage; A3 bleeding (save ends)
+    t3: 4 poison damage; A4 bleeding (save ends)
   - name: Effect
     effect: 'The hag attaches an ornate explosive pastry to each target. Roll power
       at the end of the round, targeting each creature with a pastry attached to them
@@ -137,7 +145,7 @@ abilities:
       up to their speed again. The hag makes one power roll against all targets. '
 - name: Open the Oven
   type: Villain Action 3
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Melee
@@ -148,6 +156,10 @@ abilities:
   t2: 10 fire damage; A3 weakened (save ends)
   t3: 13 fire damage; A4 weakened (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 6 fire damage; A2 weakened (save ends)
+    t2: 10 fire damage; A3 weakened (save ends)
+    t3: 13 fire damage; A4 weakened (save ends)
   - name: Effect
     effect: The hag turns the affected area into a roiling oven. The hag gains one
       edge on attacks and abilities against a creature each time they enter an affected

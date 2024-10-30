@@ -51,7 +51,7 @@ abilities:
     effect: 'The terrorsoar can shift 4 after using this ability if they are flying. '
 - name: Poison Blowdart
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Ranged
@@ -62,6 +62,10 @@ abilities:
   t2: 5 damage; M2 weakened (save ends)
   t3: 6 damage; M3 weakened (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; M1 weakened (save ends)
+    t2: 5 damage; M2 weakened (save ends)
+    t3: 6 damage; M3 weakened (save ends)
   - name: Effect
     effect: 'A creature that ends their turn adjacent to a creature or object weakened
       by this ability is weakened (EoT). '

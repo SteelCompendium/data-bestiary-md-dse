@@ -44,7 +44,7 @@ abilities:
     t3: '5 cold damage; M3 prone '
 - name: Aetherweb
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Magic
   - Ranged
@@ -54,6 +54,10 @@ abilities:
   t2: 5 damage; R2 slowed (save ends)
   t3: 6 damage; R3 restrained (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; R1 slowed (save ends)
+    t2: 5 damage; R2 slowed (save ends)
+    t3: 6 damage; R3 restrained (save ends)
   - name: Effect
     effect: 'Each enemy within 3 of a target suffers the same additional effects as
       the target unless they shift into an unoccupied square adjacent to them. '

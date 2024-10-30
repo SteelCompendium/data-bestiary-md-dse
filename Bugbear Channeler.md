@@ -44,7 +44,7 @@ abilities:
     effect: 'Each square that a target is pulled through becomes difficult terrain. '
 - name: Blistering Element
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Area
   - Magic
@@ -54,6 +54,10 @@ abilities:
   t2: 3 damage; M2 bleeding (save ends)
   t3: 4 damage; M3 bleeding (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; M1 bleeding (save ends)
+    t2: 3 damage; M2 bleeding (save ends)
+    t3: 4 damage; M3 bleeding (save ends)
   - name: Effect
     effect: 'The channeler chooses one of the following damage types for the damage:
       cold, fire, corruption, lightning, or poison. '

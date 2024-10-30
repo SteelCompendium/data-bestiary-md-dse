@@ -69,7 +69,7 @@ abilities:
     t3: '6 fire damage '
 - name: Lion's Toss
   type: Maneuver
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -79,6 +79,11 @@ abilities:
   t1: vertical push 1
   t2: vertical push 3
   t3: 'vertical push 5 '
+  effects:
+  - roll: 2d10 + 3
+    t1: vertical push 1
+    t2: vertical push 3
+    t3: 'vertical push 5 '
 - name: Roar
   type: Action
   roll: 2d10 + 3
@@ -98,7 +103,7 @@ abilities:
     t3: '10 psychic damage; I3 frightened (save ends) '
 - name: Ram's Defiance
   type: Triggered Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -110,6 +115,10 @@ abilities:
   t2: 5 damage; prone; M3 slowed (save ends)
   t3: '7 damage; prone; M4 slowed (save ends) '
   effects:
+  - roll: 2d10 + 3
+    t1: 3 damage; M2 slowed (save ends)
+    t2: 5 damage; prone; M3 slowed (save ends)
+    t3: '7 damage; prone; M4 slowed (save ends) '
   - name: Effect
     effect: The chimera shifts 5. If they end this movement adjacent to the target,
       roll power.

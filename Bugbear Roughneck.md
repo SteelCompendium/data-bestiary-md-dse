@@ -45,7 +45,7 @@ abilities:
       and the roughneck targets all enemies instead. '
 - name: Leaping Fury
   type: Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Ranged
@@ -56,6 +56,10 @@ abilities:
   t2: 9 damage; M2 prone
   t3: 12 damage; M3 prone
   effects:
+  - roll: 2d10 + 3
+    t1: 5 damage; M1 prone
+    t2: 9 damage; M2 prone
+    t3: 12 damage; M3 prone
   - name: Effect
     effect: 'The roughneck leaps 5 to an unoccupied space adjacent to the target before
       making the attack. '

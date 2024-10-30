@@ -91,7 +91,7 @@ abilities:
       up to twice their speed. '
 - name: And The Sun Forsook Her Children
   type: Villain Action 2
-  cost: PRS RR
+  roll: PRS RR
   keywords:
   - Area
   - Magic
@@ -102,6 +102,10 @@ abilities:
   t2: 5 corruption damage; pull 3 towards center of cube
   t3: Pull 1 towards center of cube
   effects:
+  - roll: PRS RR
+    t1: 8 corruption damage; pull 5 towards center of cube
+    t2: 5 corruption damage; pull 3 towards center of cube
+    t3: Pull 1 towards center of cube
   - name: Effect
     effect: 'The affected area becomes darkened, and its space warps violently in
       every direction. '

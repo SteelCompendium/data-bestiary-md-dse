@@ -45,7 +45,7 @@ abilities:
     t3: '7 lightning damage; M3 prone '
 - name: Stomp
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
@@ -56,6 +56,10 @@ abilities:
   t2: 4 damage
   t3: 5 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 4 damage
+    t3: 5 damage
   - name: Effect
     effect: 'This attack has edge against prone targets. '
 - name: Buck

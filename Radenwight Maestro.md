@@ -46,7 +46,7 @@ abilities:
       once before the end of the round. '
 - name: Tempo Change
   type: Maneuver
-  cost: PRS RR
+  roll: PRS RR
   keywords:
   - Magic
   - Ranged
@@ -57,6 +57,10 @@ abilities:
   t2: Slowed (EoT)
   t3: No effect
   effects:
+  - roll: PRS RR
+    t1: Slowed (save ends)
+    t2: Slowed (EoT)
+    t3: No effect
   - name: 3 Malice
     effect: 'Each ally within 3 of a target has their speed increased by 2 until the
       end of their next turn. '

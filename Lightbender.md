@@ -46,7 +46,7 @@ abilities:
       an edge. '
 - name: Piercing Tails
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
@@ -57,6 +57,10 @@ abilities:
   t2: 10 damage; 2 bleeding (save ends)
   t3: 13 damage; 3 bleeding (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 6 damage; 1 bleeding (save ends)
+    t2: 10 damage; 2 bleeding (save ends)
+    t3: 13 damage; 3 bleeding (save ends)
   - name: Effect
     effect: 'A creature who is bleeding from this ability has a bane on tests to search
       for the lightbender until the condition ends. '
