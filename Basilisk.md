@@ -39,6 +39,10 @@ abilities:
   t2: 8 poison damage
   t3: 11 poison damage
   effects:
+  - roll: 2d10 + 2
+    t1: 5 poison damage
+    t2: 8 poison damage
+    t3: 11 poison damage
   - name: Effect
     effect: 'This attack has an edge against targets that the basilisk has previously
       dealt poison damage to. '
@@ -74,6 +78,11 @@ abilities:
   t1: 4 poison damage; M1 weakened (save ends)
   t2: 6 poison damage; M2 weakened and slowed (save ends)
   t3: '9 poison damage; M3 weakened and slowed (save ends) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 4 poison damage; M1 weakened (save ends)
+    t2: 6 poison damage; M2 weakened and slowed (save ends)
+    t3: '9 poison damage; M3 weakened and slowed (save ends) '
 - name: Lash Out
   type: Triggered Action
   keywords:

@@ -38,6 +38,11 @@ abilities:
   t1: 3 damage; M1 prone
   t2: 5 fire damage; M2 prone
   t3: '7 lightning damage; M3 prone '
+  effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; M1 prone
+    t2: 5 fire damage; M2 prone
+    t3: '7 lightning damage; M3 prone '
 - name: Stomp
   type: Action
   cost: 2d10 + 2

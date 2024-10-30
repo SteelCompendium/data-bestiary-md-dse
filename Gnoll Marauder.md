@@ -38,6 +38,10 @@ abilities:
   t2: 5 damage; A2 bleeding (save ends)
   t3: 7 damage; prone; A3 bleeding (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; A1 bleeding (save ends)
+    t2: 5 damage; A2 bleeding (save ends)
+    t3: 7 damage; prone; A3 bleeding (save ends)
   - name: Effect
     effect: 'Shift 2. '
 - name: Cackletongue

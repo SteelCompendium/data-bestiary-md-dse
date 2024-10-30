@@ -37,6 +37,10 @@ abilities:
   t2: 12 damage
   t3: 16 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 8 damage
+    t2: 12 damage
+    t3: 16 damage
   - name: Effect
     effect: 'The lightbender has advantage on the attack if they would make it with
       an edge. '
@@ -70,6 +74,10 @@ abilities:
   t2: Dazed (EoT)
   t3: No effect
   effects:
+  - roll: INU RR
+    t1: Dazed (save ends)
+    t2: Dazed (EoT)
+    t3: No effect
   - name: Effect
     effect: 'Targets dazed by this ability have a speed of 0 while dazed. If a dazed
       target takes damage or if someone else spends an action to shake the creature

@@ -52,6 +52,10 @@ abilities:
   t2: 4 damage; A3 bleeding (save ends)
   t3: 5 damage; A4 bleeding and dazed (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 2 damage; A2 bleeding (save ends)
+    t2: 4 damage; A3 bleeding (save ends)
+    t3: 5 damage; A4 bleeding and dazed (save ends)
   - name: 3 Malice
     effect: 'The bredbeddle shifts up to 2 squares and can target additional enemies
       who come within distance of this ability during the move. '
@@ -70,6 +74,10 @@ abilities:
   t2: 10 damage; bleeding (save ends) or M3 beheaded (see effect)
   t3: 13 damage; bleeding (save ends) or M4 beheaded (see effect)
   effects:
+  - roll: 2d10 + 3
+    t1: 6 damage; bleeding (save ends) or M2 beheaded (see effect)
+    t2: 10 damage; bleeding (save ends) or M3 beheaded (see effect)
+    t3: 13 damage; bleeding (save ends) or M4 beheaded (see effect)
   - name: Effect
     effect: 'A beheaded target has their head fall into an unoccupied square adjacent
       to the bredbeddle, but they remain alive. While beheaded, the target is dazed
@@ -103,6 +111,10 @@ abilities:
   t2: 5 damage; prone; M3 dazed (save ends)
   t3: '7 damage; prone; M4 dazed (save ends) '
   effects:
+  - roll: 2d10 + 3
+    t1: 3 damage; M2 dazed (save ends)
+    t2: 5 damage; prone; M3 dazed (save ends)
+    t3: '7 damage; prone; M4 dazed (save ends) '
   - name: Effect
     effect: The bredbeddle must have a head in their possession (attached to them
       or not), which they throw at the target. If the head was attached, the bredbeddle

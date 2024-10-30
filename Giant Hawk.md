@@ -36,6 +36,11 @@ abilities:
   t1: 3 damage; M2 grabbed
   t2: 5 damage; M3 grabbed
   t3: '7 damage; grabbed '
+  effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; M2 grabbed
+    t2: 5 damage; M3 grabbed
+    t3: '7 damage; grabbed '
 - name: Dive
   type: Maneuver
 

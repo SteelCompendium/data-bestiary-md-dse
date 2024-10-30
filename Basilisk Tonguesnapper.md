@@ -39,6 +39,10 @@ abilities:
   t2: 8 acid damage; pull 2
   t3: 12 acid damage; pull 3
   effects:
+  - roll: 2d10 + 2
+    t1: 6 acid damage; pull 1
+    t2: 8 acid damage; pull 2
+    t3: 12 acid damage; pull 3
   - name: Effect
     effect: This attack can pull targets restrained by Petrifying Eye Beams.
   - name: 3 Malice
@@ -78,6 +82,10 @@ abilities:
   t2: 8 corruption damage; R2 dazed (save ends)
   t3: 12 corruption damage; R3 dazed and slowed (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 6 corruption damage; R1 dazed (save ends)
+    t2: 8 corruption damage; R2 dazed (save ends)
+    t3: 12 corruption damage; R3 dazed and slowed (save ends)
   - name: Effect
     effect: 'A creature dazed by this ability can''t benefit from edges or concealment
       until the condition ends. '

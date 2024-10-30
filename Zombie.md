@@ -43,6 +43,10 @@ abilities:
   t2: 5 damage; M2 grabbed
   t3: 6 damage; grabbed
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; M1 grabbed
+    t2: 5 damage; M2 grabbed
+    t3: 6 damage; grabbed
   - name: Effect
     effect: 'A target who starts their turn grabbed by the zombie takes 2 corruption
       damage. If a creature takes 5 or more corruption damage this way, they become
@@ -60,5 +64,10 @@ abilities:
   t1: 2 corruption damage
   t2: 3 corruption damage; M1 weakened (save ends)
   t3: '4 corruption damage; M2 dazed (save ends) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 corruption damage
+    t2: 3 corruption damage; M1 weakened (save ends)
+    t3: '4 corruption damage; M2 dazed (save ends) '
 
 ```

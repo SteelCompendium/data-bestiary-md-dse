@@ -37,6 +37,11 @@ abilities:
   t1: 3 damage; M1 slowed (EoT)
   t2: 4 damage; M2 slowed (EoT)
   t3: '5 cold damage; M3 prone '
+  effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; M1 slowed (EoT)
+    t2: 4 damage; M2 slowed (EoT)
+    t3: '5 cold damage; M3 prone '
 - name: Aetherweb
   type: Action
   cost: 2d10 + 2

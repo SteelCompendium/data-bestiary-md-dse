@@ -44,6 +44,10 @@ abilities:
   t2: 10 damage
   t3: 13 damage
   effects:
+  - roll: 2d10 + 3
+    t1: 6 damage
+    t2: 10 damage
+    t3: 13 damage
   - name: Effect
     effect: 'This attack has an edge if the chimera has an edge on the attack. '
 - name: Dragon's Eruption
@@ -58,6 +62,11 @@ abilities:
   t1: 13 fire damage
   t2: 10 fire damage
   t3: '6 fire damage '
+  effects:
+  - roll: AGL RR
+    t1: 13 fire damage
+    t2: 10 fire damage
+    t3: '6 fire damage '
 - name: Lion's Toss
   type: Maneuver
   cost: 2d10 + 3
@@ -82,6 +91,11 @@ abilities:
   t1: 4 psychic damage
   t2: 8 psychic damage; I2 frightened (save ends)
   t3: '10 psychic damage; I3 frightened (save ends) '
+  effects:
+  - roll: 2d10 + 3
+    t1: 4 psychic damage
+    t2: 8 psychic damage; I2 frightened (save ends)
+    t3: '10 psychic damage; I3 frightened (save ends) '
 - name: Ram's Defiance
   type: Triggered Action
   cost: 2d10 + 3

@@ -36,6 +36,10 @@ abilities:
   t2: 8 damage; pull 3
   t3: 11 damage; pull 4
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; pull 2
+    t2: 8 damage; pull 3
+    t3: 11 damage; pull 4
   - name: Effect
     effect: 'Each square that a target is pulled through becomes difficult terrain. '
 - name: Blistering Element
@@ -67,6 +71,10 @@ abilities:
   t2: 8 damage; P2 shapechanged (save ends)
   t3: 11 damage; P3 shapechanged (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; P1 slowed (save ends)
+    t2: 8 damage; P2 shapechanged (save ends)
+    t3: 11 damage; P3 shapechanged (save ends)
   - name: Effect
     effect: 'A shapechanged creature becomes plant-like with bark skin and leafy hair.
       They are slowed and have fire weakness 10 while they have this effect. '

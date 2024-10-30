@@ -43,6 +43,10 @@ abilities:
   t2: 8 damage; A2 vertical push 3
   t3: 11 damage; A3 vertical slide 5
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; A1 vertical slide 2
+    t2: 8 damage; A2 vertical push 3
+    t3: 11 damage; A3 vertical slide 5
   - name: 1 Malice
     effect: 'Each target is M2 bleeding (save ends). '
 - name: Earth Breaking Jump
@@ -73,6 +77,10 @@ abilities:
   t2: Frightened (EoT)
   t3: No effect
   effects:
+  - roll: INU RR
+    t1: Frightened (save ends)
+    t2: Frightened (EoT)
+    t3: No effect
   - name: Effect
     effect: 'Ogres have **advantage** on attacks against creatures frightened by this
       ability. '

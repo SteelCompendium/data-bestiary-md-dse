@@ -40,6 +40,10 @@ abilities:
   t2: 5 acid damage; 2 dazed (save ends)
   t3: 7 acid damage; 3 restrained (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 3 acid damage; 1 dazed (save ends)
+    t2: 5 acid damage; 2 dazed (save ends)
+    t3: 7 acid damage; 3 restrained (save ends)
   - name: Effect
     effect: A size 2 or smaller creature restrained by this attack is pulled into
       one of the cube's squares and moves with the cube. The creature takes 3 acid

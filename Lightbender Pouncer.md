@@ -38,6 +38,10 @@ abilities:
   t2: 9 damage; 2 prone
   t3: 12 damage; 3 prone
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; 1 prone
+    t2: 9 damage; 2 prone
+    t3: 12 damage; 3 prone
   - name: Effect
     effect: 'The pouncer makes a free strike against each target they have knocked
       prone. '
@@ -70,6 +74,10 @@ abilities:
   t2: Dazed (EoT)
   t3: No effect
   effects:
+  - roll: REA RR
+    t1: Dazed (save ends)
+    t2: Dazed (EoT)
+    t3: No effect
   - name: Effect
     effect: 'Targets dazed by this ability have a speed of 0 while dazed. If a dazed
       target takes damage or if someone else spends an action to shake the creature

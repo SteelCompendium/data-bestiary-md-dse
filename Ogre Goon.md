@@ -38,6 +38,10 @@ abilities:
   t2: 9 damage; push 4
   t3: 12 damage; push 6; prone
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; push 2
+    t2: 9 damage; push 4
+    t3: 12 damage; push 6; prone
   - name: Effect
     effect: 'This attack deals **additional damage** to each creature and object that
       takes damage from any forced movement it causes. '
@@ -73,6 +77,10 @@ abilities:
   t2: 4 damage
   t3: '6 damage; prone '
   effects:
+  - roll: 2d10 + 3
+    t1: 3 damage
+    t2: 4 damage
+    t3: '6 damage; prone '
   - name: Effect
     effect: 'The goon hurls what''s in their hand down the line and rolls power. The
       hurled creature or object counts as a target and lands in the last square of
