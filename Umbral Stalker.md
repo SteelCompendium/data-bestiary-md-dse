@@ -63,5 +63,9 @@
 - "name": "Shadow Jump"
   "type": "Free Maneuver"
   "cost": "1 Malice"
+  "effects":
+  - "name": "Effect"
+    "effect": "The umbral stalker teleports to an unoccupied space in concealment\
+      \ within 10 squares. "
 
 ```
