@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Dark Longbow
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: 1 creature or object
-  t1: 4 corruption damage; M1 slowed (save ends)
-  t2: 7 corruption damage; M2 slowed (save ends)
-  t3: 10 corruption damage; M3 slowed (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 4 corruption damage; M1 slowed (save ends)

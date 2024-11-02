@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Lockjaw
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -33,9 +32,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 5 damage; M2 grabbed
-  t2: 9 damage; M3 grabbed
-  t3: 12 damage; grabbed
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; M2 grabbed
@@ -46,16 +42,12 @@ abilities:
       of the bruxer''s turns. '
 - name: Flurry of Bites
   type: Action
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Area
   - Weapon
   distance: 1 burst
   target: All enemies in the burst
-  t1: 3 damage; A1 bleeding (save ends)
-  t2: 5 damage; A2 bleeding (save ends)
-  t3: '6 damage; A3 bleeding (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; A1 bleeding (save ends)

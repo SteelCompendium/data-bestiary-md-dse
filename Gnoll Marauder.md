@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Fury Flail
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 3 damage; A1 bleeding (save ends)
-  t2: 5 damage; A2 bleeding (save ends)
-  t3: 7 damage; prone; A3 bleeding (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; A1 bleeding (save ends)

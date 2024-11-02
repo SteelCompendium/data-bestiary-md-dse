@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Radiant Charge
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 3 damage; M1 prone
-  t2: 5 fire damage; M2 prone
-  t3: '7 lightning damage; M3 prone '
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; M1 prone
@@ -45,16 +41,12 @@ abilities:
     t3: '7 lightning damage; M3 prone '
 - name: Stomp
   type: Action
-  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
   - Weapon
   distance: 1 burst
   target: All enemies in the burst
-  t1: 2 damage
-  t2: 4 damage
-  t3: 5 damage
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

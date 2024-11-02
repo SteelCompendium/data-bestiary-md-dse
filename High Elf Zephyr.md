@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Sweeping Blade
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,10 +36,6 @@ abilities:
   - Weapon
   distance: Reach 2
   target: 1 creature or object
-  t1: 3 damage; A1 prone
-  t2: 5 damage; A2 prone
-  t3: 7 damage; the zephyr takes a free strike on a creature adjacent to the target;
-    A3 prone
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; A1 prone
