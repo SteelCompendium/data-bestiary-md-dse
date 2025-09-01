@@ -1,9 +1,9 @@
 ---
-file_basename: Wyvern Malice Malice Features
+file_basename: Wyvern Malice
 file_dpath: Monsters/Wyverns/Features
 item_id: wyvern-malice-malice-features
 item_index: '15'
-item_name: Wyvern Malice Malice Features
+item_name: Wyvern Malice (Malice Features)
 scc:
 - mcdm.monsters.v1:monster.feature:wyvern-malice-malice-features
 scdc:
@@ -13,7 +13,8 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
-name: Wyvern Malice Malice Features
+name: Wyvern Malice
+type: Malice Features
 flavor: At the start of any wyvern's turn, you can spend Malice to activate one
   of the following features.
 stats: []
