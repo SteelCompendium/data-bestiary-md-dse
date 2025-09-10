@@ -4,13 +4,13 @@ ancestry:
 - Abyssal
 - Gnoll
 ev: 4 for four minions
-file_basename: Gnoll Chainflai
+file_basename: Gnoll Chainflail
 file_dpath: Monsters/Gnolls/Statblocks
 free_strike: 3
 intuition: 0
-item_id: gnoll-chainflai
-item_index: '43'
-item_name: Gnoll Chainflai
+item_id: gnoll-chainflail
+item_index: '38'
+item_name: Gnoll Chainflail
 level: 2
 might: 2
 presence: -2
@@ -18,9 +18,9 @@ reason: 1
 roles:
 - Minion Artillery
 scc:
-- mcdm.monsters.v1:monster:gnoll-chainflai
+- mcdm.monsters.v1:monster:gnoll-chainflail
 scdc:
-- 1.1.1:2:43
+- 1.1.1:2:38
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,7 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
-name: Gnoll Chainflai
+name: Gnoll Chainflail
 level: 2
 roles:
   - Minion Artillery
